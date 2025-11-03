@@ -16,7 +16,6 @@ body{
   font-weight: 700;
   font-style: normal;
   font-size: 16px;
-  background-color: var(--Dusty-Turquois);
 }
 
 h1, h2, h3, h4 {
@@ -37,4 +36,10 @@ h2
 {font-size:24px;}
 
 h3{font-size: 20px;}
+
+
+#main{
+  background: var(--Dusty-Turquois, linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), #7CBBAB);
+box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
 
