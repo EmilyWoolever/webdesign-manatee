@@ -4,30 +4,21 @@
 <head>
   <title> Bodies and Babies: Marvelous MANATEES </title>
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="nav.css">
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
 </head>
 
 <body>
-    <header>
-<nav aria-label="Main navigation">
-            <!-- Top row container for logo and hamburger -->
-
-            <!-- Logo on the left -->
-            <a href="index.html" class="nav-logo" aria-label="Home">
-                <div class="nav-logo-circle">LOGO</div>
-            </a>
-
-            <div class="flex-right">
-            <!-- Hamburger menu button - only visible on mobile -->
-                <button class="nav-toggle" aria-expanded="false" aria-controls="main-nav">
-                    <span class="sr-only">Toggle navigation menu</span>
-                </button>
-
-
-             <!-- your HTML pages go in this list-->
-                <ul id="main-nav" aria-expanded="false">
-                    <li>
+       <header class="site-header">
+        <div class="logo"><a href="index.html">MySite</a></div>
+        <div>
+            <button class="nav-toggle" aria-controls="main-nav" aria-expanded="false" aria-label="Open navigation menu">
+                <span class="icon" aria-hidden="true">☰</span>
+            </button>
+            <nav class="nav" id="main-nav">
+                <ul>
+                      <li>
                         <a href="habitat.html">
                             HABITAT
                         </a>
@@ -42,12 +33,11 @@
                            OBSERVATION & FUN FACTS
                         </a>
                     </li>
-
                 </ul>
-            </div>
+            </nav>
+        </div>
         </nav>
 
-        </nav>
     </header>
     
     <main>
