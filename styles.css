@@ -1,3 +1,14 @@
+
+:root {
+    --deep-teal: #3F7173;
+    --dusty-turquois:#7CBBAB;
+    --darkest-green-black: #122505;
+    --forest-green: #425715;
+    --moss-green: #708A27;
+    --max-width: 930px;
+}
+
+
 /* universal styles */
 body,
 html{
@@ -7,8 +18,14 @@ html{
 }
 
 img{
-  max-width:100%;
+  width: 100%;
+   max-width: var(--max-width);
   height: auto;
+}
+iframe{
+  width:100%;
+  max-width: var(--max-width);
+  aspect-ratio: 16 / 9;
 }
 
 
@@ -17,17 +34,12 @@ img{
   color:white
 }
 
+
 /*load fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Nanum+Gothic:wght@700&family=Zeyada&display=swap');
 
 /*color variables*/
-:root {
-    --deep-teal: #3F7173;
-    --dusty-turquois:#7CBBAB;
-    --darkest-green-black: #122505;
-    --forest-green: #425715;
-    --moss-green: #708A27;
-}
+
 
 /* typography */
 body{
@@ -38,10 +50,14 @@ body{
   background-color: var(--dusty-turquois);
 }
 
+
+
 h1, h2, h3, h4 {
   font-family: "Lilita One", sans-serif;
   font-weight: 400;
   font-style: normal;
+  max-width: 60ch;
+  hyphens: none;
 }
 
 .branding {
@@ -57,6 +73,22 @@ h2
 
 h3{font-size: 20px;}
 
+p{
+   max-width: var(--max-width);
+}
+.welcome{
+  color:white;
+}
 
 
+@media (min-width: 768px){
+  .logo img {
+        width: 36vw;
+  }
+}
 
+@media (min-width: 1200px){
+  .logo img {
+        width: 50vw;
+  }
+}
