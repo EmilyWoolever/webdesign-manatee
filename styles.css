@@ -1,3 +1,11 @@
+/* universal styles */
+body,
+html{
+  max-width: 100vw;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
 /*load fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Nanum+Gothic:wght@700&family=Zeyada&display=swap');
 
