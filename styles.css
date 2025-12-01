@@ -33,11 +33,7 @@ iframe{
 .nav-toggle{
   color:white
 }
-.nav {
-  display:flex;
-  justify-content: flex-end;
-  
-}
+
 #top{
   display:flex;
   
@@ -56,12 +52,17 @@ body{
   font-style: normal;
   font-size: 16px;
   background-color: var(--dusty-turquois);
+  margin: 0;
 }
 
 footer{
   background:#3F7173;
-  
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+
 
 footer a {
   color: white;
