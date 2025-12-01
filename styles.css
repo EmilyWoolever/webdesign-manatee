@@ -33,7 +33,11 @@ iframe{
 .nav-toggle{
   color:white
 }
-
+.nav {
+  display:flex;
+  justify-content: flex-end;
+  
+}
 
 /*load fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Nanum+Gothic:wght@700&family=Zeyada&display=swap');
@@ -50,7 +54,14 @@ body{
   background-color: var(--dusty-turquois);
 }
 
+footer{
+  background:#3F7173;
+  
+}
 
+footer a {
+  color: white;
+}
 
 h1, h2, h3, h4 {
   font-family: "Lilita One", sans-serif;
