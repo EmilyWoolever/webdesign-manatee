@@ -1,4 +1,8 @@
 
+/*load fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Nanum+Gothic:wght@700&family=Zeyada&display=swap');
+
+
 :root {
     --deep-teal: #3F7173;
     --dusty-turquois:#7CBBAB;
@@ -39,8 +43,6 @@ iframe{
   
 }
 
-/*load fonts*/
-@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Nanum+Gothic:wght@700&family=Zeyada&display=swap');
 
 /*color variables*/
 
