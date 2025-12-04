@@ -75,13 +75,24 @@ footer{
 footer a {
   color: white;
   text-decoration:none;
-  
+  padding-left: 2rem;
+  display: inline-block;
 }
 
 footer a:hover {
   text-decoration: underline;
   color: var(--title-green);
 }
+
+footer .nav ul {
+  display: flex;
+  gap: 0;
+}
+
+footer .nav li {
+  padding: 1rem;
+}
+
 h1, h2, h3, h4 {
   font-family: "Lilita One", sans-serif;
   font-weight: 400;
