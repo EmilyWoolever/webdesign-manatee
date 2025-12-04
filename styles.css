@@ -77,7 +77,7 @@ footer a {
 footer a:hover {
   text-decoration: underline;
   color: var(--title-green);
-
+}
 h1, h2, h3, h4 {
   font-family: "Lilita One", sans-serif;
   font-weight: 400;

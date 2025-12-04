@@ -12,6 +12,10 @@
     font-weight: bold;
 }
 
+.logo:hover{
+    background-color: var(--deep-teal);
+}
+
 .nav ul {
     display: flex;
     gap: 1rem;
@@ -23,6 +27,10 @@
 .nav a {
     text-decoration: none;
     color:#fff;
+}
+.nav a:hover {
+    text-decoration: underline;
+    color: var(--title-green);
 }
 
 .nav-toggle {
