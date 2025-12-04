@@ -9,6 +9,7 @@
     --darkest-green-black: #122505;
     --forest-green: #425715;
     --moss-green: #708A27;
+    --title-green: #5BDFBE;
     --max-width: 930px;
 }
 
@@ -63,11 +64,13 @@ footer{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    min-height: 60px;
 }
 
 
 footer a {
   color: white;
+  text-decoration:underline;
 }
 
 h1, h2, h3, h4 {
