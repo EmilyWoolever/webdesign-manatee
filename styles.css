@@ -143,6 +143,22 @@ p{
   max-width: 300px;
 }
 
+.title-image-container {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  max-width: var(--max-width);
+}
+
+.title-image-container h1 {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  margin: 0;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
 
 @media (min-width: 768px){
   .logo img {
