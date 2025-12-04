@@ -125,6 +125,24 @@ p{
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
+.dugong-container {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  max-width: var(--max-width);
+}
+
+.dugong-container p {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  margin: 0;
+  color: white;
+  font-size: 16px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  max-width: 300px;
+}
+
 
 @media (min-width: 768px){
   .logo img {
