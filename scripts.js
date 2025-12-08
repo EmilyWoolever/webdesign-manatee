@@ -29,3 +29,4 @@ document.addEventListener('focusin', (event) => {
     iconSpan.textContent = '☰';
   }
 });
+

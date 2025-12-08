@@ -64,7 +64,7 @@ main{
 
 footer{
   background:#3F7173;
-
+color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -72,24 +72,17 @@ footer{
 }
 
 
-footer a {
-  color: white;
-  text-decoration:none;
-  padding-left: 2rem;
-  display: inline-block;
-}
-
 footer a:hover {
   text-decoration: underline;
   color: var(--title-green);
 }
 
-footer .nav ul {
+footer .f-nav ul {
   display: flex;
   gap: 0;
 }
 
-footer .nav li {
+footer .f-nav li {
   padding: 1rem;
 }
 
@@ -117,6 +110,20 @@ h3{font-size: 20px;}
 p{
    max-width: var(--max-width);
 }
+
+a:any-link {
+    color: rgb(66, 0, 198);
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+footer a:any-link {
+  color: white;
+  text-decoration:none;
+  padding-left: 2rem;
+  display: inline-block;
+}
+
 .welcome-container {
   position: relative;
   display: inline-block;
