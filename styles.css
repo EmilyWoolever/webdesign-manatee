@@ -39,10 +39,6 @@ iframe{
   color:white
 }
 
-#top{
-  display:flex;
-  
-}
 
 
 /*color variables*/
@@ -78,8 +74,21 @@ footer a:hover {
 }
 
 footer .f-nav ul {
-  display: flex;
-  gap: 0;
+  display: none;
+  gap: 1rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer .f-nav a {
+  text-decoration: none;
+  color: #fff;
+}
+
+footer .f-nav a:hover {
+  text-decoration: underline;
+  color: var(--title-green);
 }
 
 footer .f-nav li {
@@ -187,6 +196,9 @@ footer a:any-link {
 @media (min-width: 768px){
   .logo img {
         width: 36vw;
+  }
+  footer .f-nav ul {
+    display: flex;
   }
 }
 
