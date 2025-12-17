@@ -126,7 +126,7 @@ h2
 h3{font-size: 20px;}
 
 p{
-   max-width: var(--max-width);
+   max-width: 650px;
 }
 
 a:any-link {
