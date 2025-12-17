@@ -22,6 +22,7 @@ html{
   scroll-behavior: smooth;
 }
 
+
 img{
   width: 100%;
    max-width: var(--max-width);
@@ -52,10 +53,12 @@ body{
   font-size: 16px;
   background-color: var(--dusty-turquois);
   margin: 0;
+  line-height: 1.4;
 }
 main{
   padding: 1rem;
   margin-bottom: 2rem;
+  
 }
 
 footer{
@@ -67,11 +70,6 @@ color: white;
     min-height: 60px;
 }
 
-
-footer a:hover {
-  text-decoration: underline;
-  color: var(--title-green);
-}
 
 footer .f-nav ul {
   display: none;
@@ -87,6 +85,17 @@ footer .f-nav a {
 }
 
 footer .f-nav a:hover {
+  text-decoration: underline;
+  color: var(--title-green);
+}
+
+footer a.f-nav-link {
+  text-decoration: none;
+  color: #fff;
+  padding: 1rem;
+}
+
+footer a.f-nav-link:hover {
   text-decoration: underline;
   color: var(--title-green);
 }
@@ -124,13 +133,6 @@ a:any-link {
     color: rgb(66, 0, 198);
     cursor: pointer;
     text-decoration: underline;
-}
-
-footer a:any-link {
-  color: white;
-  text-decoration:none;
-  padding-left: 2rem;
-  display: inline-block;
 }
 
 .welcome-container {
