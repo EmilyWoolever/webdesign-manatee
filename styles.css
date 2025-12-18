@@ -220,6 +220,8 @@ a:any-link {
   top: 60px;
   width: 350px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  
+  
 }
 
 .toc h3 {
@@ -237,6 +239,7 @@ a:any-link {
   color: white;
   text-decoration: none;
   line-height: 3;
+  
 }
 
 .toc a:hover {
