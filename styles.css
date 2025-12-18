@@ -209,3 +209,34 @@ a:any-link {
         width: 50vw;
   }
 }
+
+.toc {
+  background: var(--darkest-green-black);
+  color: white;
+  padding: 1rem;
+  margin-bottom: 2rem;
+  position: fixed;
+  right: 20px;
+  top: 60px;
+  width: 250px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.toc h3 {
+  text-decoration: underline;
+  margin-top: 0;
+}
+
+.toc ul {
+  list-style: none;
+  padding: 0;
+}
+
+.toc a {
+  color: white;
+  text-decoration: none;
+}
+
+.toc a:hover {
+  text-decoration: underline;
+}
