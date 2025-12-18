@@ -247,14 +247,34 @@ a:any-link {
   color: var(--title-green);
 }
 
-@media (min-width: 1300px) {
+@media (min-width: 1350px) {
   .toc {
     display: block;
   }
 }
 
-@media (max-width: 1299px) {
+@media (max-width: 1349px) {
   .toc {
+    display: none;
+  }
+}
+
+.hue-manatee {
+  position: fixed;
+  right: 20px;
+  top: 60px;
+  width: 350px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+@media (min-width: 1350px) {
+  .hue-manatee {
+    display: block;
+  }
+}
+
+@media (max-width: 1349px) {
+  .hue-manatee {
     display: none;
   }
 }
