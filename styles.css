@@ -7,6 +7,7 @@
     --deep-teal: #3F7173;
     --dusty-turquois:#7CBBAB;
     --darkest-green-black: #122505;
+    --table-of-contents: #115457;
     --forest-green: #425715;
     --moss-green: #708A27;
     --title-green: #5BDFBE;
@@ -51,7 +52,7 @@ body{
   font-weight: 700;
   font-style: normal;
   font-size: 16px;
-  background-color: var(--dusty-turquois);
+  background: linear-gradient(89deg, rgba(119, 204, 187, 0.73) 67.15%, #39AAAF 99.09%);
   margin: 0;
   line-height: 1.4;
 }
@@ -211,7 +212,7 @@ a:any-link {
 }
 
 .toc {
-  background: var(--deep-teal);
+  background: var(--table-of-contents);
   color: white;
   padding: 1rem;
   margin-bottom: 2rem;
@@ -258,6 +259,7 @@ a:any-link {
     display: none;
   }
 }
+
 
 .hue-manatee {
   position: fixed;
