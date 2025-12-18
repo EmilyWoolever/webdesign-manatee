@@ -63,7 +63,7 @@ main{
 }
 
 footer{
-  background:#3F7173;
+  background: var(--darkest-green-black);
 color: white;
     display: flex;
     justify-content: space-between;
