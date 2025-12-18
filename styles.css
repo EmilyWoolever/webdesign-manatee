@@ -211,20 +211,21 @@ a:any-link {
 }
 
 .toc {
-  background: var(--darkest-green-black);
+  background: var(--deep-teal);
   color: white;
   padding: 1rem;
   margin-bottom: 2rem;
   position: fixed;
   right: 20px;
   top: 60px;
-  width: 250px;
+  width: 350px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
 }
 
 .toc h3 {
   text-decoration: underline;
   margin-top: 0;
+
 }
 
 .toc ul {
@@ -235,8 +236,22 @@ a:any-link {
 .toc a {
   color: white;
   text-decoration: none;
+  line-height: 3;
 }
 
 .toc a:hover {
   text-decoration: underline;
+  color: var(--title-green);
+}
+
+@media (min-width: 1300px) {
+  .toc {
+    display: block;
+  }
+}
+
+@media (max-width: 1299px) {
+  .toc {
+    display: none;
+  }
 }
